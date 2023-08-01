@@ -27,10 +27,6 @@ function gotResult(error, results) {
     objects = results
 }
 
-function back() {
-    window.onload('index.html')
-}
-
 function draw() {
     image(img, 0, 0, 640, 420)
     if (status != "") {
