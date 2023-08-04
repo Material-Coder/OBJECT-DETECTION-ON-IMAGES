@@ -13,6 +13,10 @@ function setup() {
     document.getElementById("status").innerHTML = "Status: Detecting Objects"
 }
 
+function back() {
+    window.location = 'index.html'
+}
+
 function modelLoaded() {
     console.log("model Loaded")
     status = true

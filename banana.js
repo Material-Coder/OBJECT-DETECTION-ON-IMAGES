@@ -19,6 +19,10 @@ function modelLoaded() {
     objectDetector.detect(img, gotResult)
 }
 
+function back() {
+    window.location = 'index.html'
+}
+
 function gotResult(error, results) {
     if (error) {
         console.log(error)
